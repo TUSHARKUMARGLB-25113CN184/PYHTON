@@ -1,0 +1,17 @@
+#strings are immutible
+a="tushar++ ++ +"
+print(len(a))
+print(a.upper())
+b="i am good boy"
+c=(b.upper())
+print(c)
+print(c.lower())
+print(a.rstrip("+"))
+print(a.replace("tushar","shantanu"))
+print(a.split(" "))
+print(a.capitalize())
+d="you are gooOd girl"
+print(d.capitalize())
+print(d.center(50))
+print(d.count("o"))
+print(d.endswith("!!"))
